@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<What-to-watch>
+<Fan-favorites>
+<movie>
+    <name>Dil Bechara</name>
+    <rating>9.1</rating>
+    <studio>
+   Disney
+   </studio>
+</movie>
+<movie>
+    <name>Lootcase</name>
+    <rating>8.0</rating>
+    <studio>
+    Disney
+    </studio>
+</movie>
+<movie>
+    <name>Raat Akeli Hai</name>
+    <rating>7.6</rating>
+    <studio>
+    Netflix
+    </studio>
+</movie>
+<movie>
+    <name>Greyhound</name>
+    <rating>7.1</rating>
+    <studio>
+    Apple TV
+    </studio>
+</Movie>
+<movie>
+    <name>Dark</name>
+    <rating>8.8</rating>
+    <studio>
+     Netflix
+    </studio>
+</movie>
+<movie>
+    <name>The Umbrella Academy</name>
+    <rating>8.0</rating>
+    <studio>
+    Netflix
+    </studio>
+    </movie>
+</Fan-favorites>
+</What-to-watch>
+
+<!--
+   ** How do you think XML relates to HTML? 
+    
+      Xml is also a markup language however it's dealing with data exclusively rather than making the 
+      data look nice visually
+
+   ** What are some benefits of something like HTML using XML's syntax?  
+
+      XML doesn't use predetermined tags as HTML does. It simplifies data sharing as well, if 
+      incompatible data is used XML can be used also.
+
+   ** What are some disadvantages? 
+
+      It's super tedious and doesn't neccesarily look the greatest.
+
+-->
