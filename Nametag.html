@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        .red {
+            background-color: red;
+            color: white;
+            height: 305px;
+            width: 425px;
+            text-align: center;
+            border-radius: 7%;
+            font-family: sans-serif;
+        }
+
+        .hello {
+        
+            font-size: 72px;
+            margin-bottom: -20px;
+        }
+
+        .mynameis {
+            font-size: 36px;
+            margin: -15px;
+        }
+
+        .white {
+            background-color: white;
+            height: 150px;
+            color: black; 
+        }
+
+        h1 {
+            font-size: 70px;
+            padding-top: 35px;
+        }
+    </style>
+    </head>
+    <body>
+    <div class="red">
+        <p class="hello">Hello</p>
+        <p class="mynameis">my name is</p>
+        <div class="white" id="username">
+            <h1>Adam</h1>
+        </div>
+        <label>
+        label for="username">
+        User name
+        </label>
+        <input type="text"> type="text" id="username"></input>
+        <button>
+            onclick="change_name()">Submit</button>
+        </div>
+    </div>
+    </body>
+    <footer>
+        <script>
+        function change_name(){
+    let input = document.getElementById("username")
+    let output = document.getElementById("badge_name")
+    output.innerHTML=input.value
+    }
+    </script>
+    </footer>
+</html>
